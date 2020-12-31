@@ -86,7 +86,7 @@ ROBOTSTXT_OBEY = True
 ITEM_PIPELINES = {
     'stack.pipelines.MongoDBPipeline': 300,
 }
-MONGO_URL='mongodb+srv://dhiraj:kMhCIfTBzRoLx2Ur@dhirajtestcluster.61f6q.mongodb.net/stackoverflow?retryWrites=true&w=majority'
+MONGO_URL='mongodb+srv://dhiraj:<password>@<address>/stackoverflow?retryWrites=true&w=majority'
 ##MONGO_SERVER = 'localhost'
 ##MONGO_PORT = 27017
 ##MONGODB_DB = "stackoverflow"
